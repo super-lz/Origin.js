@@ -1,0 +1,11 @@
+{
+  "name": "originjs",
+  "version": "1.0.0",
+  "description": "for original js exploration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "leazer",
+  "license": "ISC"
+}
