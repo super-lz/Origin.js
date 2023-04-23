@@ -34,6 +34,16 @@ const app = new App({
                       backgroundColor: 'grey'
                     }
                   }),
+                  new Button({
+                    children: [
+                      new Text({
+                        child: 'ssss'
+                      })
+                    ],
+                    onClick: (self) =>  {
+                      console.log(self)
+                    }
+                  }),
                 ]
               })
             ]

@@ -1,11 +1,13 @@
 class Ori {
+  template = 'div'
+
   constructor(options = {}) {
     this.children = options.children || []
     this.style = options.style || {}
   }
 
   render() {
-    const element = document.createElement('div')
+    const element = document.createElement(this.template)
     Object.keys(this.style).forEach(key => {
       element.style[key] = this.style[key]
     })
